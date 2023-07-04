@@ -56,6 +56,7 @@ button i{
 
 .h-50{
     text-align: center;
+    padding-bottom: 4rem;
 }
 
 .h-50 h2{
@@ -230,6 +231,7 @@ header {
 .blue_button{
     background-color: #8ea1e1;
     color: white;
+ 
 }
 
 
@@ -241,7 +243,11 @@ footer {
   background-color: #23272a;
   color: white;
 }
-footer > .top, footer > .bottom {
+.top{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+footer >footer> .bottom {
   padding: 1rem 0;
 }
 
@@ -295,4 +301,5 @@ hr{
 .rotate{
     rotate: 180deg;
 }
+
 
