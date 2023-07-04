@@ -21,6 +21,10 @@ h1, h2{
     font-size: 48px;
 }
 
+h3{
+    font-size: 32px;
+}
+
 p{
     font-family: gg sans normal;
     font-size: 20px;
@@ -46,10 +50,17 @@ button{
   border: 1px dashed;
 }
 
-.debug .h-50
-{
-  height: 500px;
+.h-50{
+    text-align: center;
 }
+
+.h-50 h2{
+    margin-bottom: 1rem;
+}
+.h-50 h3{
+    margin-bottom: 2rem;
+}
+
 
 .debug .login,
 .debug .logo,
@@ -109,9 +120,7 @@ button{
     width: 100%
 }
 
-.col-4 img{
-    margin-left: 5rem;
-}
+
 
 .col-4 .card{
     margin-top: 2rem;
@@ -211,16 +220,28 @@ header {
     color: white;
 }
 
+.blue_button{
+    background-color: #8ea1e1;
+    color: white;
+}
+
+
 /* #endregion Main */
 
 
 /* #region Footer */
 footer {
-  background-color: darkblue;
+  background-color: #23272a;
+  color: white;
 }
 footer > .top, footer > .bottom {
   padding: 1rem 0;
 }
 
+footer li{
+    list-style: none;
+    justify-content: center;
+    color: white;
+}
 /* #endregion Footer */
 
