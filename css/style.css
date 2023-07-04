@@ -43,6 +43,10 @@ button{
     font-family: gg sans, sans-serif;
 }
 
+button i{
+    margin-right:5px
+}
+
 /* #endregion Common */
 
 /* #region Debug */
@@ -91,6 +95,10 @@ button{
 }
 .justify-content-between {
   justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
 }
 
 /* Flex Grid */
@@ -154,7 +162,7 @@ button{
 /* #region Header */
 
 header {
-  background-color: #3161e0;
+  background-color: #255ee9;
 }  
 
 .logo, .login {
@@ -269,5 +277,22 @@ footer li, h5{
     color: #7289da;
 }
 
+footer button{
+    align-items: center;
+}
+
+hr{
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #7289da;
+  width: 80%;
+  margin: auto;
+  
+}
+
 /* #endregion Footer */
+
+.wave{
+   
+}
 
