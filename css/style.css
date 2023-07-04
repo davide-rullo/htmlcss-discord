@@ -30,6 +30,11 @@ p{
     font-size: 20px;
 }
 
+li{
+    font-family: gg sans normal;
+    font-size: 16px;
+}
+
 button{
     border-radius: 28px;
     padding: 0 1rem 0;
@@ -243,5 +248,26 @@ footer li{
     justify-content: center;
     color: white;
 }
+
+footer h3{
+    margin-bottom: 1rem;
+}
+
+footer i{
+    margin-right: 1rem;
+}
+
+footer li, h5{
+    margin-bottom: .5rem;
+}
+
+.col-3{
+    margin-top: .9rem;
+}
+
+.purple{
+    color: #7289da;
+}
+
 /* #endregion Footer */
 
