@@ -32,7 +32,7 @@ p{
 
 li{
     font-family: gg sans normal;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 button{
@@ -41,6 +41,7 @@ button{
     height: 38px;
     border: none;
     font-family: gg sans, sans-serif;
+    font-size: 18px;
 }
 
 button i{
@@ -293,6 +294,12 @@ hr{
 /* #endregion Footer */
 
 .wave{
-   
+   background-image: url('../img/wave.svg');
+   height: 100px;
+   opacity: 0.07;
+}
+
+.rotate{
+    rotate: 180deg;
 }
 
