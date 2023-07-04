@@ -12,24 +12,22 @@ section {
 }
 
 body{
-    font-family: gg sans;
+    font-family: gg sans, sans-serif;
+    color: #23272a;
 }
 
 button{
     border-radius: 28px;
-    width: 113px;
+    padding: 0 1rem 0;
     height: 38px;
     border: none;
-    font-family: gg sans;
+    font-family: gg sans, sans-serif;
 }
 
 /* #endregion Common */
 
 /* #region Debug */
-.debug .container
-{
-  background-color: rgb(255, 166, 0);
-}
+
 
 .debug [class^='col-']
 {
@@ -50,11 +48,7 @@ button{
   border: 1px dashed;
 }
 
-.debug .container-sm
-{
-  background-color: palevioletred;
-  height: 100%;
-}
+
 /* #endregion Debug */
 
 /* #region Utilities */
@@ -153,18 +147,41 @@ header {
 
 .login button{
     background-color: white;
+    color: #23272a;
 }
 /* #endregion Header */
 
 /* #region Main */
 
 .jumbotron {
-  background-color: paleturquoise;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 450px; /* we might need to keep this */
   padding: 2rem 0;
 }
 
+.container-sm{
+    text-align: center;
+    color: white;
+}
 
+.container-sm h1{
+    margin-bottom: 2rem;
+}
+
+.container-sm p{
+    margin-bottom: 1rem;
+}
+
+.container-sm button{
+  margin: 10px;
+}
+
+.black_button{
+    background-color: #23272a;
+    color: white;
+}
 
 /* #endregion Main */
 
