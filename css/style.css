@@ -6,8 +6,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 section {
   padding: 2rem 0;
+}
+
+body{
+    font-family: gg sans;
+}
+
+button{
+    border-radius: 28px;
+    width: 113px;
+    height: 38px;
+    border: none;
+    font-family: gg sans;
 }
 
 /* #endregion Common */
@@ -105,18 +118,41 @@ section {
 /* #region Header */
 
 header {
-  background-color: blue;
+  background-color: #3161e0;
 }  
 
 .logo, .login {
   width: 20%;
+  height: 61px;
+  justify-content: center;
+  align-items: center;
 }
+
+.logo img{
+    margin: 10px;
+    padding: 10px;
+    height: 48px;
+}
+
 .menu {
   width: 60%;
   text-align: center;
+
 }
-.login {
-  text-align: end;
+
+.menu ul{
+    list-style: none;
+    justify-content: center;
+    color: white;
+}
+
+.menu li{
+    margin: 10px;
+    padding: 10px;
+}
+
+.login button{
+    background-color: white;
 }
 /* #endregion Header */
 
