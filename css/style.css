@@ -105,15 +105,19 @@ button{
   width: calc(100% / 12 * 8);
 }
 
-.col-8 img{
+.col-8 img, .col-4 img{
     width: 100%
+}
+
+.col-4 img{
+    margin-left: 5rem;
 }
 
 .col-4 .card{
     margin-top: 2rem;
 }
 
-.col-4 h2{
+.col-4 h2, .col-8 h2{
     margin-bottom: 1rem;
 }
 
@@ -125,8 +129,10 @@ button{
 }
 
 /* Colors */
-.bg_section {
-  background-color: #ededed;
+
+
+.bg_section{
+    background-color: #ededed;
 }
 
 /* #endregion Utility */
@@ -217,3 +223,4 @@ footer > .top, footer > .bottom {
 }
 
 /* #endregion Footer */
+
