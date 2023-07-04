@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+
+
 section {
   padding: 2rem 0;
 }
@@ -50,15 +52,7 @@ button i{
 
 /* #endregion Common */
 
-/* #region Debug */
 
-
-.debug [class^='col-']
-{
-  height: 200px;
-  background-color: palegreen;
-  border: 1px dashed;
-}
 
 .h-50{
     text-align: center;
@@ -72,15 +66,7 @@ button i{
 }
 
 
-.debug .login,
-.debug .logo,
-.debug .menu
-{
-  border: 1px dashed;
-}
 
-
-/* #endregion Debug */
 
 /* #region Utilities */
 
@@ -166,11 +152,18 @@ header {
   background-color: #255ee9;
 }  
 
-.logo, .login {
+.logo, .login{
   width: 20%;
   height: 61px;
-  justify-content: center;
   align-items: center;
+}
+.logo {
+    justify-content: center;
+}
+
+.login {
+  justify-content: flex-end;
+  
 }
 
 .logo img{
